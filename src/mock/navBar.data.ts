@@ -7,30 +7,30 @@ export const navBarData: navBarDataProps[] = [
         id: 1,
         title: "Dashboard",
         icon: DashboardIcon,
-        link: "/",
+        link: "dashboard",
     },
     {
         id: 2,
         title: "Calendar",
         icon: CalendarIcon,
-        link: "/",
+        link: "calendar",
     },
     {
         id: 3,
         title: "Events",
         icon: BookmarkIcon,
-        link: "/",
+        link: "events",
     },
     {
         id: 4,
         title: "Offers & Deals",
         icon: BackpackIcon,
-        link: "/",
+        link: "offers-deals",
     },
     {
         id: 5,
         title: "Settings",
         icon: MixerHorizontalIcon,
-        link: "/",
+        link: "settings",
     }
 ]
