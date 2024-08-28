@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import NavBar from "./NavBar/NavBar";
 import { Box, Flex } from "@radix-ui/themes";
 import { Logo } from "../Logo/Logo";
@@ -13,7 +13,9 @@ const Aside = () => {
           <Box py="4" pl={"2"}>
             <Logo />
           </Box>
-          <NavBar />
+          <Suspense>
+            <NavBar />
+          </Suspense>
           <Events />
         </Flex>
         <AsideFooter />
